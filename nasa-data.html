@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AstraForge · NASA Data and Resources</title>
+<meta name="description" content="NASA data and resources used in AstraForge, Team StellarVogars, NASA Space Apps Challenge 2026.">
+<style>
+  :root { --bg:#060c1e; --card:#0d1733; --line:#24365f; --ink:#ffffff; --ink2:#c3d2ea; --cyan:#4fd1e8; --amber:#f5a524; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+  main { max-width: 920px; margin: 0 auto; padding: 40px 16px 64px; }
+  .kicker { color:var(--amber); font-weight:700; letter-spacing:.16em; font-size:12px; text-transform:uppercase; }
+  h1 { margin:6px 0 8px; font-size:clamp(26px,5vw,38px); line-height:1.15; }
+  h1 span { color:var(--amber); }
+  p.lead { color:var(--ink2); margin:0 0 28px; max-width:70ch; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin-bottom:16px; }
+  h2 { margin:0 0 6px; font-size:19px; color:var(--cyan); }
+  .use { color:var(--ink2); margin:0 0 10px; }
+  ul { margin:0; padding-left:20px; }
+  li { margin:4px 0; }
+  a { color:var(--cyan); text-decoration:underline; text-underline-offset:2px; overflow-wrap:anywhere; }
+  a:hover { color:#ffffff; }
+  footer { color:var(--ink2); font-size:14px; margin-top:28px; }
+  .back { display:inline-block; margin-top:8px; font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">NASA Space Apps Challenge 2026 · Team StellarVogars</div>
+  <h1>Astra<span>Forge</span>: NASA Data and Resources</h1>
+  <p class="lead">Every NASA dataset and resource used to build AstraForge, the space mission design simulator, and how each one is used in the app.</p>
+
+  <section>
+    <h2>1. NASA 3D Resources</h2>
+    <p class="use">Official 3D spacecraft models shown in the spacecraft viewer and during flights: Hubble, James Webb Space Telescope, Juno, Landsat, Perseverance, Voyager, Parker Solar Probe and Rosetta.</p>
+    <ul><li><a href="https://science.nasa.gov/3d-resources/">NASA 3D Resources</a></li>
+    <li><a href="https://github.com/nasa/NASA-3D-Resources">NASA 3D Resources on GitHub</a></li></ul>
+  </section>
+
+  <section>
+    <h2>2. NASA Blue Marble imagery</h2>
+    <p class="use">The real ground colour around each of the 18 launch sites, such as Sriharikota, Kennedy, Baikonur and Kourou.</p>
+    <ul><li><a href="https://visibleearth.nasa.gov/collection/1484/blue-marble">NASA Visible Earth: Blue Marble collection</a></li></ul>
+  </section>
+
+  <section>
+    <h2>3. NASA mission facts</h2>
+    <p class="use">Published masses, power, antenna sizes and orbits for the NASA spacecraft templates, plus Space Launch System dimensions.</p>
+    <ul>
+      <li><a href="https://science.nasa.gov/mission/hubble/">Hubble Space Telescope</a></li>
+      <li><a href="https://science.nasa.gov/mission/webb/">James Webb Space Telescope</a></li>
+      <li><a href="https://science.nasa.gov/mission/europa-clipper/">Europa Clipper</a></li>
+      <li><a href="https://science.nasa.gov/mission/juno/">Juno</a></li>
+      <li><a href="https://science.nasa.gov/mission/mars-2020-perseverance/">Mars 2020 Perseverance</a></li>
+      <li><a href="https://science.nasa.gov/mission/parker-solar-probe/">Parker Solar Probe</a></li>
+      <li><a href="https://science.nasa.gov/mission/new-horizons/">New Horizons</a></li>
+      <li><a href="https://science.nasa.gov/mission/voyager/">Voyager</a></li>
+      <li><a href="https://landsat.gsfc.nasa.gov/satellites/landsat-9/">Landsat 9</a></li>
+      <li><a href="https://www.nasa.gov/humans-in-space/space-launch-system/">Space Launch System (SLS)</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. NASA Deep Space Network</h2>
+    <p class="use">Antenna sizes and the link-budget method behind the communications model (data rate, signal delay, data sent home per day).</p>
+    <ul><li><a href="https://deepspace.jpl.nasa.gov/about/commitments-office/mission-documents/">DSN mission documents, including the Telecommunications Link Design Handbook (810-005)</a></li></ul>
+  </section>
+
+  <section>
+    <h2>5. NASA Technology Readiness Levels</h2>
+    <p class="use">The TRL 1–9 scale used to rate every propulsion and launch concept in the Future Tech Lab.</p>
+    <ul><li><a href="https://www.nasa.gov/directorates/space-technology/technology-readiness-level">NASA Technology Readiness Levels</a></li></ul>
+  </section>
+
+  <section>
+    <h2>6. The challenge</h2>
+    <p class="use">The NASA Space Apps Challenge 2026 challenge that AstraForge answers.</p>
+    <ul><li><a href="https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/">Space Mission Design Game</a></li></ul>
+  </section>
+
+  <footer>
+    Other open data used: Natural Earth 1:10M map data (public domain), the Hipparcos star catalogue via d3-celestial (BSD-3-Clause), the Tycho-2 sky map from CesiumJS (Apache-2.0) and planet textures from Solar System Scope (CC BY 4.0). NASA does not endorse this project.
+    <br><a class="back" href="https://dharsh08-s.github.io/AstraForge/">← Back to AstraForge</a>
+  </footer>
+</main>
+</body>
+</html>
